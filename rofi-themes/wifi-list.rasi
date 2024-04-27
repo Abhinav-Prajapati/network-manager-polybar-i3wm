@@ -1,0 +1,29 @@
+* {
+   bg: #2C3539;
+   background-color: @bg;
+   font: "Awasome 12";
+   
+   dark: @bg;
+   border: 0px;
+}
+
+window {
+    width : 300;
+    location: north east;
+    x-offset:   -8px;        
+    y-offset:   41px;
+}
+
+element {
+    padding: 5px;
+    vertical-align: 1;
+} 
+
+element-text {
+   background-color: #00000000;
+   text-color: #fff;
+}
+
+element selected.normal {
+   background-color: #ff0800;
+}
